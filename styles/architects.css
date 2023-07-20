@@ -13,6 +13,7 @@ padding: 20px 25px;
 font-size: 1.25rem;
 cursor: pointer;
 border: 0px;
+text-align: center;
 }
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -57,11 +58,13 @@ nav li a{
     font-size: 4rem;
     font-weight: 700;
     color:  #131313;
+    text-align: center;
 }
 .banner-description{
     color: #727272;
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
 }
 /* responsive media quaries */
 /* mobile device */
@@ -74,6 +77,37 @@ nav li a{
     }
     
 }
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: o auto;
+}
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.Quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.text-features{
+    color: #FF900E;
+    font-weight: 700;
+}
+
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
     nav{
